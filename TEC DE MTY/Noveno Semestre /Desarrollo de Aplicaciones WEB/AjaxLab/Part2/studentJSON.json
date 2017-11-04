@@ -1,7 +1,0 @@
-{
-	"students": [
-		{"name": "Alejandra", "studentID": "A01231278", "average": 90}, 
-		{"name": "Simon", "studentID": "A01234562", "average": 83}, 
-		{"name": "Olga", "studentID": "A01245678", "average": 92}
-	]
-}
