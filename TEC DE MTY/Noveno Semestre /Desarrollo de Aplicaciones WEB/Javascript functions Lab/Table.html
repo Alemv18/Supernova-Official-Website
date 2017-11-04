@@ -1,0 +1,55 @@
+<!-- 	Build a web page that asks for a number using window prompt 
+and write in a table the numbers from 0 to the number given by the user, 
+followed by the square of this number.  -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Print Table </title>
+		<style>
+			body{
+				font-family: "Calibri";
+				font-size: 15px;
+				color: pink;
+				text-align: center;
+			}
+
+			h2 {
+				text-align: center;
+				color: black;
+				font-size: 15px;
+			}
+
+			#container {
+				color: black;
+				font-size: 20px;
+			}
+		</style>
+		<script type="text/javascript">	
+			function printTable() {
+				var number = parseInt(prompt("Enter a number", "0"));
+
+				if(isNaN(number) || number <= 0) {
+					alert("The given input must be a number!")
+				} else {
+					var table = "<table>";
+					for(var i=0; i <= number; i++){
+						table += "<tr>";
+						for(j=0; j < number; j ++) {
+							table += "<td>""</td>";
+						}
+					}
+					table += "</tr>";
+				}
+				table += "</table>";
+				document.getElementById("table").innerHTML = table;
+		}
+		</script>
+	</head>
+	<body>
+		<h1>Print Table of numbers from 0 to given number</h1>
+		<div id="table"></div>
+		<button onclick = "printTable()" type="text">Let's do it!</button>
+	</body>
+</html>

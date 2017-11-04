@@ -1,0 +1,88 @@
+/* CSE 190 M, Spring 2008, Lab 2, Journal
+   A starter CSS file that gives basic styles to various elements
+   for aesthetic purposes. 
+   
+   NOTE: This file does NOT need changing for the lab.
+*/
+
+a {
+	color: #245F5F;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+blockquote {
+	font-style: italic;
+}
+
+body {
+	font-family: "Georgia";
+	color: #009097;
+	background-image: url("images/background.gif");
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+section {
+	border: 10px solid white;
+	background-color: white;
+}
+
+h1, h2 {
+	font-weight: normal;
+	font-family: "Century Gothic";
+	margin: 3px;
+	padding: 0px;
+}
+
+img {
+	border-style: none;
+	padding: 5px;
+}
+
+ul {
+	padding-left: 10px;
+	margin: 2px 10px 2px 5px;
+}
+
+/* Added css styles*/
+.first-div {
+	text-align: right;
+	background-color: #A8F0F0;
+}
+
+.date {
+	border-bottom: 2px dashed blue;
+}
+
+.section-parts {
+	border: 4px solid #C2E9E9;
+	background-color: #E8FBFB;
+	padding: 5px;
+	padding-bottom: 60px;
+	margin-top: 10px;
+}
+
+.section-parts img {
+	float: right;
+}
+
+#sub-title {
+	font-size: 14px;
+}
+
+label, #name {
+	color: dimgray;
+	text-align: right;
+	font-size: 14px;
+	font-family: "Arial";
+	position: relative;
+	left: 80%;
+}
+
+#id-number {
+	left: 90%;
+}

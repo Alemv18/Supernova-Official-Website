@@ -1,0 +1,48 @@
+<!-- 1.	Build a web page that prompts for the circle radius and when a button “Compute Data” is pressed, it should display in the same page the circle area and circumference. You can use the constant Math.PI. Use functions. 
+a.	circunference= 2r, 
+b.	area = r2 . -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Calculate circle area and circumference</title>
+		<style>
+			body{
+				font-family: "Calibri";
+				font-size: 15px;
+				color: pink;
+				text-align: center;
+			}
+
+			h2 {
+				color: black;
+				font-size: 15px;
+			}
+		</style>
+		<script type="text/javascript">
+			function computeData() {
+			var radius = parseFloat(document.getElementById("radius").value);
+
+			function calculateArea(radius) {
+				return Math.PI * radius * radius;
+			}
+
+			function calculateCircunf(radius) {
+				return 2 * Math.PI *radius;
+			}
+
+			document.getElementById("area").innerHTML+= calculateArea(radius)
+			document.getElementById("perimeter").innerHTML+= calculateCircunf(radius)
+
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Calculate area and circunference</h1>
+		<h2>What's the circle radius?</h2>
+		<input id="radius" type="text"/>
+		<button onclick="computeData()">Calculate</button>
+		<h2 id="area">Total area:</h2>
+		<h2 id="perimeter">Total circumference:</h2>
+	</body>
+</html>

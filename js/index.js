@@ -39,4 +39,14 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+
+  // Delete text when input clicked
+  $('input:text').click(
+    function(){
+        $(this).val('');
+    });
+
+
 })(jQuery); // End of use strict
+
+

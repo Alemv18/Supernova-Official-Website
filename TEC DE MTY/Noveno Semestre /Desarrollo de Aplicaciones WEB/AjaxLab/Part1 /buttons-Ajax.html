@@ -1,0 +1,36 @@
+<!-- Part 1:
+Create a web site called AjaxLab. Do the following using Jquery Ajax. 
+Create a buttons-Ajax.html file with two buttons:
+a) “Change h1 with file” to change the content of the h1 heaAding using the content of a text file.
+ b) “Run JavaScript function”. When the button is clicked a Javascript function saved in a different js file that shows an alert is called using Ajax. -->
+
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		var nameToReplace = "#nameToReplace";
+		var label = nameToReplace.text();
+		var contentTxt = "messageContent.txt";
+
+		$(document).ready(function() {
+			$("button1").click(function() {
+				$.ajax({
+					type: "GET", 
+					url: contentTxt, 
+					dataType: "text", 
+					success: function(result){
+						console.log("true");
+						nameToReplace.text(text.replace("label", contentTxt));
+					}
+				});
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+	<h1 id="nameToReplace">Simon</h1>
+	<button id="button1">Change content</button>
+	<button id="button2">Run Javascript Function</button>
+</body>
+</html>

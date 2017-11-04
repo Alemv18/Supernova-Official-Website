@@ -1,0 +1,52 @@
+<!-- Build a web page that asks for a number within a web page and when a button “Compute” is pressed, the sum of numbers from 0 to the value given by the user should be included in a paragraph.  Also show an alert displaying “Sum computed”. -->
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Sum of numbers</title>
+		<style>
+			body{
+				font-family: "Calibri";
+				font-size: 15px;
+				color: pink;
+				text-align: center;
+			}
+
+			h2 {
+				color: black;
+				font-size: 15px;
+			}
+			p {
+				color: black;
+				font-size: 15px;
+				font-weight: bolder;
+			}
+		</style>
+		<script type="text/javascript">
+			function getSum(){
+				var number = document.getElementById("number").value;
+
+				function numberSum(number) {
+				if(isNaN(number) || number <= 0){
+					alert("Insert a valid number");
+				}else {	
+					var total = 0;
+					for(var i=1; i <= number; i++){
+						total += i;
+					}
+					return total;
+				}
+				}
+				document.getElementById("sumTotal").innerHTML += numberSum(number)
+				alert("Sum computed");
+			}
+		</script>
+	</head>
+	<body>
+		<h1>Get Sum of Numbers </h1>
+		<h2>Insert a number:</h2>
+		<input id="number" type="text"/>
+		<p id="sumTotal">The total sum:</p>
+		<button onclick="getSum()">Compute</button>
+	</body>
+</html>
