@@ -770,3 +770,28 @@ textarea {
     border-right: 15px solid transparent;
     border-bottom: 15px solid #dddddd;
 }
+
+/* Portfolio site */
+
+.mac {
+	width: 80% !important;
+	height: 80% !important;
+}
+
+.device-mockup >.device {
+	width: 66%;
+	height: 66%;
+}
+
+.device-mockup >.mac {
+	width: 250% !important;
+	height: 250% !important;
+}
+
+.device-container{
+	margin-top: 120px;
+}
+
+.mac-device {
+	margin: 0;
+}
