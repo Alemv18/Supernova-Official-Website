@@ -795,3 +795,9 @@ textarea {
 .mac-device {
 	margin: 0;
 }
+
+/* Team members section */
+
+#team-members {
+	background-color: black;
+}
