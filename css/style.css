@@ -308,3 +308,8 @@ footer {
   sn-logo {
     width: 20%;
   }
+
+.parallax-window {
+    min-height: 1200px;
+    background: transparent;
+}  
