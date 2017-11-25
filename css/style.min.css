@@ -162,9 +162,7 @@ header.masthead {
 	padding-top: 150px;
 	padding-bottom: 100px;
 	color: #fff;
-	background: url(../img/bg-pattern.png), #7b4397;
-	background: url(../img/bg-pattern.png), -webkit-linear-gradient(to left, #7b4397, #dc2430);
-	background: url(../img/bg-pattern.png), linear-gradient(to left, rgb(67, 136, 151), #dc2430);
+	background: linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.13)), url(../img/work.jpeg) no-repeat top scroll !important;
 }
 
 header.masthead .header-content {
