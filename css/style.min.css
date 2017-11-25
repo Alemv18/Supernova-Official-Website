@@ -11,6 +11,7 @@ body {
 	font-family: Muli, Helvetica, Arial, sans-serif;
 	overflow-x: hidden;
 	overflow-y: scroll;
+	background: white !important;
 }
 
 a {
@@ -340,6 +341,7 @@ a {
   text-align: left;
 }
 .cd-words-wrapper b {
+  color: #f0a323;
   display: inline-block;
   position: absolute;
   white-space: nowrap;
@@ -347,10 +349,15 @@ a {
   top: 0;
 }
 .cd-words-wrapper b.is-visible {
+  font-size: 67px;
   position: relative;
+  color: #ffd400;
+  font-weight: 700;
+  text-shadow: 1px 1px 0.5px #1f1e1d63;
 }
 .no-js .cd-words-wrapper b {
   opacity: 0;
+      font-size: 67px;
 }
 .no-js .cd-words-wrapper b.is-visible {
   opacity: 1;
@@ -362,7 +369,6 @@ a {
   padding: .2em 0;
 }
 .cd-headline.slide .cd-words-wrapper {
-  overflow: hidden;
   vertical-align: top;
 }
 .cd-headline.slide b {
@@ -380,6 +386,10 @@ a {
   -webkit-animation: slide-out 0.6s;
   -moz-animation: slide-out 0.6s;
   animation: slide-out 0.6s;
+  font-size: 67px;
+  color: #ffd400;
+  font-weight: 700;
+  text-shadow: 1px 1px 0.5px #1f1e1d63;
 }
 
 @-webkit-keyframes slide-in {
