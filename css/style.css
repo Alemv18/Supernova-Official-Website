@@ -313,3 +313,12 @@ footer {
     min-height: 1200px;
     background: transparent;
 }  
+
+header.masthead .portfolio-cover {
+  position: relative;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: #fff;
+  background: linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.13)), url(../img/portfolio-cover.jpeg) no-repeat top scroll !important;
+}
