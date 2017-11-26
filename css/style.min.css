@@ -157,6 +157,7 @@ button :focus {
 
 }
 
+
 header.masthead {
 	position: relative;
 	width: 100%;
@@ -207,6 +208,10 @@ header.masthead .device-container .screen img {
 		max-width: 325px
 	}
 
+}
+
+.iphone-mockup {
+	width: 90%;
 }
 
 section.download {
@@ -508,14 +513,21 @@ a {
 .main-btn {
 	background: none;
     color: white;
-    text-transform: uppercase;
     border: 3px solid white;
     padding: 16px 64px;
     font-weight: bolder;
     font-size: 17px;
-    font-family: "Lato", sans-serif;
-    letter-spacing: 1px;
+    border-radius: 300px;
+    font-family: Lato, Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
+
+.main-btn:hover {
+	background: #ffd400;
+	color: white;
+}
+
 
 /* About section */
 section.about-us {
