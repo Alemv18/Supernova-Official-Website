@@ -1111,6 +1111,21 @@ header.masthead .portfolio-cover {
     margin-bottom: 80px;
 }
 
+audio, canvas, video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+
+
 /* Team members section */
 
 #team-members {
