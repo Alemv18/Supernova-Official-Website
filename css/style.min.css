@@ -558,8 +558,9 @@ section.about-us {
 }
 
 #additional-info {
-	background-color: rgb(52, 52, 52);
-	padding-bottom: 19px;
+	background-color: rgb(20, 16, 35);
+  padding-bottom: 58px;
+  padding-top: 87px;
 }
 
 
@@ -570,7 +571,7 @@ section.about-us {
     margin-left: 55%;
     border-left: 65px solid transparent;
     border-right: 65px solid transparent;
-    border-bottom: 100px solid #343434;
+    border-bottom: 100px solid rgb(20, 16, 35);;
 }
 
 #triangle-topright {
@@ -583,16 +584,16 @@ section.about-us {
 }
 
 .add-info-heading{
-	color: white;
-    font-family: Lato, Helvetica, Arial, sans-serif;
-    font-size: 22px;
+	  font-family: "Lato", sans-serif;
+    margin-top: 20px;
+    font-size: 19px;
     text-align: center;
 }    
 
 .add-info-txt {
-	color: white;
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
 }
 
 section.features .section-heading {
@@ -939,7 +940,6 @@ footer ul li a.active, footer ul li a:active, footer ul li a:focus, footer ul li
     display: inline-block;
     float: left;
     margin-top: -3%;
-    margin-left: 5%;
 }
 
 .first-post {
