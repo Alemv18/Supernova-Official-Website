@@ -650,7 +650,7 @@ section.features .section-heading p {
 	  box-shadow: 0 1px 12px rgba(0,0,0,0.15);
     margin-top: 40px;
     border: 1px solid #d7d7d7;
-    padding: 180px 50px;
+    padding: 171px 50px;
     border-radius: 5px;
     margin-left: 0px;
     position: relative;
@@ -923,10 +923,6 @@ footer ul li a.active, footer ul li a:active, footer ul li a:focus, footer ul li
 	text-align: left;
     margin-bottom: 30px;
     margin-top: -50px;
-}
-
-.blog-cont-2 {
-	padding: 133px 22px !important;
 }
 
 /* 
