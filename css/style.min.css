@@ -1146,6 +1146,7 @@ audio:not([controls]) {
     border-radius: 50%;
     overflow: hidden;
     position: relative;
+    width: 90%;
 }
 .our-team img{
     width: 100%;
@@ -1225,4 +1226,12 @@ audio:not([controls]) {
 }
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 30px; }
+}
+
+.team-title {
+	margin-bottom: 40px;
+}
+
+.first-team-row {
+	margin-bottom: 50px;
 }
