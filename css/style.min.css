@@ -59,6 +59,10 @@ section h2 {
   letter-spacing: 1px;
 }
 
+button {
+  outline: none !important;
+}
+
 button :focus {
 	outline: none;
 }
@@ -713,12 +717,12 @@ section.features .section-heading p {
     font-family: "Lato", sans-serif;
     font-size: 11px;
     float: left;
-    padding: 8px 45px;
+    padding: 11px 126px;
     position: absolute;
     border-radius: 6px;
     box-shadow: 0 5px 17px rgba(0, 0, 0, 0.39);
-    margin-left: 197px;
-    margin-top: -30px;
+    margin-left: 83px;
+    top: 94%;
 }
 
 .see-more {
@@ -817,10 +821,10 @@ section.contact h2 i {
 /* Footer */
 
 footer {
-	padding: 35px 0;
+	padding: 65px 0;
 	text-align: center;
 	color: rgba(255, 255, 255, .3);
-	background-color: #f0a323;
+	background: url(../img/photo-cover-cosmo.jpeg) no-repeat center scroll !important;
 }
 
 footer p {
@@ -854,14 +858,33 @@ footer ul li a.active, footer ul li a:active, footer ul li a:focus, footer ul li
     margin-top: -4px;
 }
 
-.logo-footer {
-	width: 45%;
+ul.footer-txt {
+   list-style: none;
+   font-weight: 100 !important;
+   padding-left: 0px;
 }
 
-.logo-section{
-    display: inline-block;
-    padding-right: 0;
-    margin-right: -50px;
+footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer-icons {
+  color: white;
+  font-size: 35px;
+  letter-spacing: 14px;
+}
+
+.footer-txt-contact {
+    color: white;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover, 
+.fa-instagram:hover {
+  color: #fbd406;
 }
 
 .copyright {
@@ -1164,7 +1187,10 @@ audio:not([controls]) {
 }
 
 .company-txt {
-  margin-top: 5%;
+    color: #0e0e19;
+    margin-top: 4%;
+    font-family: "Lato", sans-serif;
+    text-align: justify;
 }
 
 
