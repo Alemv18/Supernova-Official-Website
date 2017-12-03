@@ -40,6 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: Catamaran, Helvetica, Arial, sans-serif;
 	font-weight: 200;
 	letter-spacing: 1px
+  color: #0d0e17b5;
 }
 
 p {
@@ -53,7 +54,9 @@ section {
 }
 
 section h2 {
-	font-size: 35px
+	font-size: 35px;
+  color: #0d0e17cf;
+  letter-spacing: 1px;
 }
 
 button :focus {
@@ -79,7 +82,7 @@ button :focus {
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-	color: #fcbd20
+	color: #fdcc52;
 }
 
 #mainNav .navbar-toggler {
@@ -115,7 +118,7 @@ button :focus {
 @media (min-width:992px) {
 	#mainNav {
 		border-color: transparent;
-    	background-color: #f0a323ab;
+    background-color: transparent;
 	}
 
 	#mainNav .navbar-brand {
@@ -131,28 +134,29 @@ button :focus {
 	}
 
 	#mainNav .navbar-nav>li>a:focus:hover, #mainNav .navbar-nav>li>a:hover {
-		color: #fff
+		color: #fdcc52;
 	}
 
 	#mainNav.navbar-shrink {
 		border-color: rgba(34, 34, 34, .1);
-		background-color: #fff
+		background-color: #0d0d17f0;
+    color: white;
 	}
 
 	#mainNav.navbar-shrink .navbar-brand {
-		color: #222
+		color: #222;
 	}
 
 	#mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-		color: #fdcc52
+		color: #fdcc52;
 	}
 
 	#mainNav.navbar-shrink .navbar-nav>li>a, #mainNav.navbar-shrink .navbar-nav>li>a:focus {
-		color: #222
+		color: #fff;
 	}
 
 	#mainNav.navbar-shrink .navbar-nav>li>a:focus:hover, #mainNav.navbar-shrink .navbar-nav>li>a:hover {
-		color: #fdcc52
+		color: #fdcc52;
 	}
 
 }
@@ -164,7 +168,7 @@ header.masthead {
 	padding-top: 150px;
 	padding-bottom: 100px;
 	color: #fff;
-	background: linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.13)), url(../img/photo-cover-cosmo.jpeg) no-repeat top scroll !important;
+	background: linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.13)), url(../img/photo-cover-cosmo.jpeg) no-repeat center scroll !important;
 }
 
 header.masthead .header-content {
@@ -216,7 +220,7 @@ header.masthead .device-container .screen img {
 
 .iphone-mockup, 
 .laptop-mockup {
-	width: 90%;
+	width: 80%;
 }
 
 section.download {
@@ -313,8 +317,9 @@ a {
   width: 90%;
   max-width: 768px;
   text-align: center;
-  margin-bottom: 20px;
-  padding-bottom: 0px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px !important;
 }
 
 .cd-intro {
@@ -538,7 +543,7 @@ a {
 section.about-us {
 	background-color: white;
 	padding-top: 160px;
-    padding-bottom: 50px;
+  padding-bottom: 28px;
 }
 
 .idea-icon {
@@ -554,24 +559,31 @@ section.about-us {
 }
 
 .play-icon {
-	width: 70%;
+	width: 65.5%;
 }
 
 #additional-info {
-	background-color: rgb(20, 16, 35);
-  padding-bottom: 58px;
-  padding-top: 87px;
+	  background-color: rgb(13, 14, 23);
+    padding-bottom: 58px;
+    padding-top: 87px;
 }
 
+.about-txt {
+	text-align: justify;
+    font-family: "Lato", sans-serif;
+    color: #0e0e19;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
 
 #triangle-up {
-	width: 0;
+	  width: 0;
     height: 0;
-    margin-top: -140px;
-    margin-left: 55%;
+    margin-top: -126px;
+    margin-left: 54%;
     border-left: 65px solid transparent;
     border-right: 65px solid transparent;
-    border-bottom: 100px solid rgb(20, 16, 35);;
+    border-bottom: 100px solid rgb(13, 14, 23);
 }
 
 #triangle-topright {
@@ -602,6 +614,7 @@ section.features .section-heading {
 
 section.features .section-heading h2 {
 	margin-top: 0
+  color: #0d0e17b5;
 }
 
 section.features .section-heading p {
@@ -613,16 +626,29 @@ section.features .section-heading p {
 }
 
 .features-txt-heading {
-	margin-top: 30px;
+	  margin-top: 30px;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 21px;
+    font-family: "Lato", sans-serif;
+    color: #0d0e17;
+    padding-bottom: 16px;
 }
 
 .features-txt-cont {
-	text-align: justify;
-    font-size: 14px;
+	   font-family: "Lato", sans-serif;
+    color: #0d0e17;
+    font-size: 17px;
+    text-align: justify;
+
 }
 
+.parallax-window {
+    min-height: 300px;
+}
+
+.add-right-space {
+  padding: 0 27px;
+}
 
 .purchase {
 	margin-top: 80px;
@@ -663,6 +689,8 @@ section.features .section-heading p {
     position: relative;
     margin-top: -160px;
     border-radius: 3px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .blog-img {
@@ -679,7 +707,7 @@ section.features .section-heading p {
 }
 
 .namepost {
-	background-color: #343434;
+	  background-color: #0d0e17;
     border: 0;
     color: white;
     font-family: "Lato", sans-serif;
@@ -771,13 +799,18 @@ section.contact h2 i {
 .contact-txt {
 	margin-top: 40px;
 	text-align: left;
-	font-family: 19px;
+	font-size: 19px;
 }
 
 .contact-img-sec {
 	width: 65%;
-    float: left;
+    float: right;
     margin-top: 30px;
+    margin-right: 9.5em;
+}
+
+.free-txt {
+	color:  gray;
 }
 
 
@@ -867,7 +900,7 @@ footer ul li a.active, footer ul li a:active, footer ul li a:focus, footer ul li
 }
 
 .sn-logo {
-	width: 7%;
+	width: 15%;
 }
 
 
