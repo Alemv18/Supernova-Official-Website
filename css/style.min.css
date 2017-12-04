@@ -868,6 +868,7 @@ ul.footer-txt {
    list-style: none;
    font-weight: 100 !important;
    padding-left: 0px;
+   margin-top: 20px;
 }
 
 footer ul li {
@@ -886,6 +887,17 @@ footer ul li {
     text-align: center;
     font-size: 14px;
     margin-top: 20px;
+}
+
+.send-msg-title {
+	font-family: "Lato", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 4px;
+    margin-bottom: -12px;
+    font-size: 16px;
+    letter-spacing: 1px;
 }
 
 .logo-footer {
@@ -912,23 +924,26 @@ footer ul li {
 }
 
 .form-control:focus, 
-.form-control:hover {
-	background: black;
+.form-control:hover, 
+.footer-msg:focus, 
+.footer-msg:hover {
+	background: #fbd406;
 }
 
 .footer-cnt {
 	opacity: 0.8;
 }
 
-.footer-msg {
+.footer-msg,
+.form-control {
     width: 100%;
     margin-top: 10px;
 	display: block;
 	width: 100%;
 	padding: .375rem .75rem;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	line-height: 1.5;
-	color: #495057;
+	color: #fff;
 	background-color: transparent;
 	background-image: none;
 	background-clip: padding-box;
