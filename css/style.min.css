@@ -639,7 +639,7 @@ section.features .section-heading p {
     font-size: 21px;
     text-align: center;
     font-family: "Lato", sans-serif;
-    color: #0d0e17;
+    color: #f4841f;
     padding-bottom: 16px;
 }
 
@@ -1279,13 +1279,18 @@ header.masthead .portfolio-cover {
 }
 
 .first-txt-portfolio, 
-.second-txt-portfolio {
+.second-txt-portfolio, 
+.yellow-txt {
 	color: white;
     font-size: 55px;
     text-transform: uppercase;
     font-family: "Lato", sans-serif;
     letter-spacing: 2px;
     font-weight: bolder;
+}
+
+.yellow-txt {
+	color: #fbd406;
 }
 
 .second-txt-portfolio {
