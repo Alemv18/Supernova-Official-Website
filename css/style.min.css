@@ -868,7 +868,7 @@ ul.footer-txt {
    list-style: none;
    font-weight: 100 !important;
    padding-left: 0px;
-   margin-top: 20px;
+   margin-top: 48px;
 }
 
 footer ul li {
@@ -953,8 +953,16 @@ footer ul li {
 }
 
 .copyright {
-  color: white;
-  margin-top: 20px;
+    color: white;
+    padding: 10px;
+    font-family: "Lato", sans-serif;
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.copyright-section {
+	background: #000;
+	margin-bottom: 0px;
 }
 
 .no-gutter>[class*=col-] {
@@ -990,6 +998,19 @@ footer ul li {
 	width: 15%;
 }
 
+.send-btn {
+	margin-top: 15px;
+    font-size: 11px;
+    background: transparent;
+    color: white;
+    padding: 4px 36px;
+    border: 1px solid white;
+    border-radius: 61px;
+}
+
+.send-btn:hover {
+	background: #fbd406;
+}
 
 /* 
 	Blog site 
