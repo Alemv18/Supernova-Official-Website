@@ -1301,6 +1301,36 @@ header.masthead .portfolio-cover {
     margin-bottom: 80px;
 }
 
+#services {
+	background: black;
+    padding: 100px 0px;
+} 
+
+.services-title {
+	font-size: 35px;
+    color: white;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    margin-bottom: 50px;
+}
+
+.services-icon {
+	font-size: 60px;
+	color: white;
+}
+
+.services-txt {
+	font-family: "Lato", sans-serif;
+    font-size: 17px;
+    margin-top: 20px;
+    color: white;
+}
+
+.fa-bolt:hover,
+.fa-code:hover, 
+.fa-mobile:hover {
+	color: #fbd406;
+}
 audio, canvas, video {
   display: inline-block;
 }
