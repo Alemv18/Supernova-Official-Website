@@ -817,11 +817,17 @@ section.contact h2 i {
 	color:  gray;
 }
 
+/* Companies Contribution */
+.companies-cont {
+	background: white;
+	padding: 145px 0 ;
+}
+
 
 /* Footer */
 
 footer {
-	padding: 65px 0;
+	padding: 55px 0;
 	text-align: center;
 	color: rgba(255, 255, 255, .3);
 	background: url(../img/photo-cover-cosmo.jpeg) no-repeat center scroll !important;
@@ -879,6 +885,12 @@ footer ul li {
     font-family: "Lato", sans-serif;
     text-align: center;
     font-size: 14px;
+    margin-top: 20px;
+}
+
+.logo-footer {
+	width: 50% !important;
+	opacity: 0.6 !important;
 }
 
 .fa-facebook:hover,
@@ -888,9 +900,8 @@ footer ul li {
 }
 
 .copyright {
-	color: white;
+  color: white;
   margin-top: 20px;
-  margin-left: 71px;
 }
 
 .no-gutter>[class*=col-] {
