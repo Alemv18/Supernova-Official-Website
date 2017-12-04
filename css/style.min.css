@@ -721,13 +721,13 @@ section.features .section-heading p {
 }
 
 .namepost {
-	  background-color: #0d0e17;
+	background-color: #0d0e17;
     border: 0;
     color: white;
     font-family: "Lato", sans-serif;
     font-size: 11px;
     float: left;
-    padding: 11px 126px;
+    padding: 11px 98px;
     position: absolute;
     border-radius: 6px;
     box-shadow: 0 5px 17px rgba(0, 0, 0, 0.39);
@@ -1302,9 +1302,11 @@ header.masthead .portfolio-cover {
 }
 
 #services {
-	background: black;
-    padding: 100px 0px;
-} 
+	 background: -webkit-linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.13)), url(../img/services.jpeg) no-repeat bottom scroll !important;
+	 background: -o-linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.13)), url(../img/services.jpeg) no-repeat bottom scroll !important;
+	 background: linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.13)), url(../img/services.jpeg) no-repeat bottom scroll !important;
+     padding: 100px 0px;
+ } 
 
 .services-title {
 	font-size: 35px;
@@ -1326,11 +1328,30 @@ header.masthead .portfolio-cover {
     color: white;
 }
 
+.circle {
+	padding: 14px;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-bottom: 30px !important;
+    border: 3px solid white;
+}
+
 .fa-bolt:hover,
 .fa-code:hover, 
 .fa-mobile:hover {
 	color: #fbd406;
 }
+
+.circle:hover, 
+.circle:focus, 
+.circle:active {
+	background: #ffffff1f;
+}
+
 audio, canvas, video {
   display: inline-block;
 }
