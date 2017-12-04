@@ -827,7 +827,7 @@ section.contact h2 i {
 /* Footer */
 
 footer {
-	padding: 55px 0;
+	padding: 45px 0;
 	text-align: center;
 	color: rgba(255, 255, 255, .3);
 	background: url(../img/photo-cover-cosmo.jpeg) no-repeat center scroll !important;
@@ -895,8 +895,46 @@ footer ul li {
 
 .fa-facebook:hover,
 .fa-twitter:hover, 
-.fa-instagram:hover {
+.fa-instagram:hover, 
+.fa-map-marker:hover, 
+.fa-phone:hover {
   color: #fbd406;
+}
+
+.footer-icons-txt {
+	color: white;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+.form-control {
+	background: transparent;
+}
+
+.form-control:focus, 
+.form-control:hover {
+	background: black;
+}
+
+.footer-cnt {
+	opacity: 0.8;
+}
+
+.footer-msg {
+    width: 100%;
+    margin-top: 10px;
+	display: block;
+	width: 100%;
+	padding: .375rem .75rem;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #495057;
+	background-color: transparent;
+	background-image: none;
+	background-clip: padding-box;
+	border: 1px solid #fff;
+	border-radius: .25rem;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
 .copyright {
