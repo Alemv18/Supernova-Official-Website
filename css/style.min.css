@@ -665,14 +665,15 @@ section.features .section-heading p {
 }
 
 .purchase {
-	margin-top: 80px;
-	background-color: #ffa200;
+	font-family: "Lato", sans-serif;
+    background-color: #ffa200;
     border: 0;
     border-radius: 140px;
-    padding: 15px 50px;
+    padding: 15px 90px;
     color: white;
     font-weight: 800;
     box-shadow: 0 3px 13px rgb(170, 166, 166);
+    margin-top: 60px;
 }
 
 
@@ -1376,7 +1377,7 @@ audio:not([controls]) {
 /* Team members section */
 
 #team-members {
-	background-color: #fff;
+	background-color: #000;
 }
 
 .our-team{
@@ -1386,6 +1387,11 @@ audio:not([controls]) {
     position: relative;
     width: 90%;
 }
+
+.our-team-title {
+	color: white;
+}
+
 .our-team img{
     width: 100%;
     height: auto;
