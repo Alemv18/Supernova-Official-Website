@@ -1607,6 +1607,59 @@ audio:not([controls]) {
 }
 
 /* Form for client's website cost */
+.cost-form {
+	margin-bottom: -70px;
+}
+
 #cost-client-background {
-   background: url(../img/form-back-client.jpeg) !important;
+	background: url(../img/form-back-client.jpeg) no-repeat top scroll !important;
+	overflow-x: none;
+	overflow-y: scroll;
+}
+
+.cost-input {
+	display: block;
+}
+
+#project {
+    background: linear-gradient(180deg, rgb(66, 66, 66) 0%, rgb(0, 0, 0) 100%);
+}
+
+#project-form {
+    margin: 0% 30%;
+    background-color: black;
+    padding: 50px 70px;
+    border-radius: 21px;
+    opacity: 0.7;
+}
+
+#project-submit {
+	background: none;
+    color: white;
+    padding: 5px 70px;
+    border-radius: 80px;
+    margin-top: 4px;
+    font-family: "Lato", sans-serif;
+}
+
+#project-submit:hover, 
+#project-submit:focus, 
+#project-submit:active {
+	background: #fbd108 ;
+	color: #000;
+}
+
+#footer-form-client {
+	background: black !important;
+}
+
+.cost-nav-bar {
+	background: black !important;
+}
+
+.form-cost-title {
+	font-size: 23px;
+    color: white;
+    opacity: 0.9;
+    font-family: "Lato", sans-serif;
 }
