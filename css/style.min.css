@@ -829,6 +829,10 @@ section.contact h2 i {
 }
 
 /* Companies Contribution */
+.contributions {
+  margin: 0 250px;
+}
+
 .companies-cont {
 	background: white;
 	padding: 145px 0 ;
@@ -843,6 +847,12 @@ section.contact h2 i {
     width: 28%;
     margin-top: -60px;
     margin-left: 190px;
+}
+
+.cur-logo {
+    width: 21%;
+    margin-left: 210px;
+    margin-top: -40px;
 }
 
 .coders-link-logo {
@@ -1365,6 +1375,10 @@ header.masthead .portfolio-cover {
     border-radius: 50px;
     margin-bottom: 30px !important;
     border: 3px solid white;
+}
+
+.port-logo {
+  width: 30% !important;
 }
 
 .fa-bolt:hover,
