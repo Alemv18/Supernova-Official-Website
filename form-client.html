@@ -59,27 +59,28 @@
             <div class="form-section">
                 <fieldset>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="first-name" value="Nombre Completo" required>
+                        <input type="text" class="form-control" onfocus="this.value=''" name="first-name" value="Nombre Completo" required>
                     </div>
                     <div class="form-group">
                         <div class="container last-name-fields">
                             <div class="row">
                                 <div class="col-md-6 first-last-name">
-                                    <input type="text" class="form-control" name="first-last-name" value="Apellido Paterno" required>
+                                    <input type="text" class="form-control" onfocus="this.value=''" name="first-last-name" value="Apellido Paterno" required>
                                 </div>
                                 <div class="col-md-6 second-last-name">
-                                    <input type="text" class="form-control" name="second-last-name" value="Apellido Materno" required>
+                                    <input type="text" class="form-control" onfocus="this.value=''" name="second-last-name" value="Apellido Materno" required>
                                 </div>
                             </div>
                         </div>
                         <div class="form-group">
-                            <input type="email" class="form-control" placeholder="example@gmail.com">
+                            <input type="email" class="form-control" onfocus="this.value=''" placeholder="example@gmail.com">
                         </div>
                         <div class="form-group">
-                            <input type="text" class="form-control" placeholder="+52 1">
+                            <input type="text" class="form-control" onfocus="this.value=''" placeholder="+52 1">
                         </div>
                         <div class="form-group">
-                            <textarea type="text" class="form control textarea-style" value="Mensaje"></textarea>
+                            <p class="tell-us-txt">Cuéntanos sobre tu proyecto y nosotros nos comunicaremos contigo</p>
+                            <textarea type="text" class="form control textarea-style" value="Mensaje" onfocus="this.value=''" ></textarea>
                         </div>
                         <div class="btn-section text-center">
                             <button id="project-submit" class="text-center" type="submit">Enviar</button>

@@ -630,7 +630,7 @@ section.features .section-heading p {
 }
 
 .structure-img {
-	width: 58%;
+	width: 48%;
 }
 
 .features-txt-heading {
@@ -1645,12 +1645,21 @@ audio:not([controls]) {
 }
 
 .form-control[type=email] {
-	color: white;
+	color: white !important;
+	height: 34px;
+}
+
+.form-control[type=text] {
+	height: 34px;
 }
 
 #project-submit:hover, 
 #project-submit:focus, 
-#project-submit:active {
+#project-submit:active, 
+.textarea-style:hover, 
+.textarea-style:focus, 
+.textarea-style:active
+ {
 	background: #fbd108 ;
 	color: #000;
 }
@@ -1687,5 +1696,11 @@ input:-webkit-autofill:active {
 	background: none;
     border: 1px solid white;
     border-radius: 5px;
-    padding: 30px 177px;
+    height: 100px;
+    width: 530px;
+}
+
+.tell-us-txt {
+	font-size: 16px;
+    font-family: "Lato", sans-serif;
 }
