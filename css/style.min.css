@@ -968,6 +968,7 @@ footer ul li {
 
 .form-control {
 	background: transparent;
+	margin-bottom: 20px;
 }
 
 .form-control:focus, 
@@ -1631,6 +1632,7 @@ audio:not([controls]) {
     padding: 50px 70px;
     border-radius: 21px;
     opacity: 0.7;
+    margin-top: 70px;
 }
 
 #project-submit {
@@ -1640,6 +1642,10 @@ audio:not([controls]) {
     border-radius: 80px;
     margin-top: 4px;
     font-family: "Lato", sans-serif;
+}
+
+.form-control[type=email] {
+	color: white;
 }
 
 #project-submit:hover, 
@@ -1662,4 +1668,24 @@ audio:not([controls]) {
     color: white;
     opacity: 0.9;
     font-family: "Lato", sans-serif;
+    margin-bottom: 30px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    background: #fbd108;
+}
+
+.last-name-fields {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.textarea-style {
+	background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 30px 177px;
 }

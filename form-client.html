@@ -28,7 +28,7 @@
     <body id="cost-client-background">
         <nav class="navbar navbar-expand-lg navbar-light fixed-top cost-nav-bar" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="sn-logo" src="./img/logo-white-sn.png" alt="logo"></a>
+                <a class="navbar-brand js-scroll-trigger" href="index.html"><img class="sn-logo" src="./img/logo-white-sn.png" alt="logo"></a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fa fa-bars"></i>
@@ -59,66 +59,27 @@
             <div class="form-section">
                 <fieldset>
                     <div class="form-group">
-                        <label for="tiempoElaboracion">Nombre Completo</label>
-                        <input type="text" class="form-control" name="first-name" required>
+                        <input type="text" class="form-control" name="first-name" value="Nombre Completo" required>
                     </div>
                     <div class="form-group">
-                        <div class="container">
+                        <div class="container last-name-fields">
                             <div class="row">
                                 <div class="col-md-6 first-last-name">
-                                    <label for="tiempoElaboracion">Apellido Paterno</label>
-                                    <input type="text" class="form-control" name="first-last-name" required>
+                                    <input type="text" class="form-control" name="first-last-name" value="Apellido Paterno" required>
                                 </div>
                                 <div class="col-md-6 second-last-name">
-                                    <label for="tiempoElaboracion">Apellido Materno</label>
-                                    <input type="text" class="form-control" name="second-last-name" required>
+                                    <input type="text" class="form-control" name="second-last-name" value="Apellido Materno" required>
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group date-time">
-                            <label for="exampleInputPassword1">Fecha de Nacimiento</label>
-                            <input type="date" class="form-control">
-                        </div>
                         <div class="form-group">
-                            <label for="claveProyecto">Sexo</label><br>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <select id="gender" class="form-control" required>
-                                        <option value="positive">Femenino</option>
-                                        <option value="negative">Masculino</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6"><input type="text" class="form-control type-blood" placeholder="Escoge un tipo"></div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="claveProyecto">Tipo de Sangre</label><br>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <select id="blood-type" class="form-control" required>
-                                        <option value="hide">Signo</option>
-                                        <option value="positive"> + </option>
-                                        <option value="negative"> - </option>
-                                    </select>
-                                </div>
-                                <div class="col-md-6"><input type="text" class="form-control type-blood" placeholder="Ingresa un tipo: ej. A"></div>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="tiempoElaboracion">Email</label>
                             <input type="email" class="form-control" placeholder="example@gmail.com">
                         </div>
                         <div class="form-group">
-                            <label for="tiempoElaboracion">Teléfono</label>
                             <input type="text" class="form-control" placeholder="+52 1">
                         </div>
                         <div class="form-group">
-                            <label for="tiempoElaboracion">Dirección</label>
-                            <input type="text" class="form-control" placeholder="Ej.Calle Margaritas #23">
-                        </div>
-                        <div class="form-group">
-                            <label for="fechaInicio">Código Postal</label>
-                            <input type="text" class="form-control" placeholder="27000">
+                            <textarea type="text" class="form control textarea-style" value="Mensaje"></textarea>
                         </div>
                         <div class="btn-section text-center">
                             <button id="project-submit" class="text-center" type="submit">Enviar</button>
@@ -126,36 +87,6 @@
                             </fieldset>
                         </form>
                     </section>
-                    <footer id="footer-form-client">
-                        <div class="container footer-cnt">
-                            <div class="row">
-                                <div class="col-md-4"></div>
-                                <div class="col-md-4">
-                                    <ul class="footer-txt footer-icons">
-                                        <i class="fa fa-facebook" aria-hidden="true"></i>
-                                        <i class="fa fa-twitter" aria-hidden="true"></i>
-                                        <i class="fa fa-instagram" aria-hidden="true"></i>
-                                    </ul>
-                                </div>
-                                <div class="col-md-4 text-center contact-footer">
-                                    <div class="row">
-                                        <div class="col-md-6">
-                                            <i class="fa fa-map-marker footer-icons" aria-hidden="true"></i>
-                                            <p class="footer-icons-txt">Torreón, Coahuila</p>
-                                        </div>
-                                        <div class="col-md-6">
-                                            <i class="fa fa-phone footer-icons" aria-hidden="true"></i>
-                                            <p class="footer-icons-txt"><strong>(044)</strong>8713048802</p>
-                                        </div>
-                                    </div>
-                                    <p class="footer-txt-contact">
-                                        Contáctanos, o bien, no dudes en solicitar presupuestos para tu proyecto sin ningún compromiso. <br>
-                                        <strong>Supernova </strong> siempre a la vanguardia.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </footer>
                     <!-- Bootstrap core JavaScript -->
                     <script src="vendor/jquery/jquery.min.js"></script>
                     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
