@@ -33,22 +33,20 @@ Patterns - reusable parts of our design
 
 -------------------------------- */
 .cd-btn {
-  display: inline-block;
-  padding: 1.4em 2em;
-  border-radius: 50em;
-  background-color: #eebb00;
-  box-shadow: 0 1px 20px rgba(238, 187, 0, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.4);
-  color: #ffffff;
-  font-size: 1.3rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  -webkit-transition: box-shadow 0.2s;
-  -moz-transition: box-shadow 0.2s;
-  transition: box-shadow 0.2s;
+    margin-top: 20px;
+    border: 3px solid #fff;
+    display: inline-block;
+    padding: 15px 80px;
+    border-radius: 50em;
+    background-color: none;
+    color: #ffffff;
+    font-family: "Lato", sans-serif;
 }
-.no-touch .cd-btn:hover {
-  box-shadow: 0 1px 30px rgba(238, 187, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+
+.cd-btn:hover, 
+.cd-btn:active, 
+.cd-btn:focus {
+  background: #fbd406;
 }
 
 .cd-img-replace {
@@ -69,7 +67,7 @@ Intro page
   z-index: 2;
   height: 100vh;
   width: 100%;
-  background-color: #262f3b;
+  background: linear-gradient( rgb(16, 12, 12), rgba(16, 1, 1, 0.12)),url(../img/portfolio-cover.jpeg);
   /* used to vertical align its content */
   display: table;
   -webkit-transition: -webkit-transform 0.5s;
@@ -107,14 +105,7 @@ Intro page
   vertical-align: middle;
   text-align: center;
 }
-.cd-intro-block h1 {
-  width: 90%;
-  margin: 0 auto .6em;
-  font-size: 2.4rem;
-  color: #ebebeb;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
 .cd-intro-block.projects-visible {
   /* translate the .cd-intro-block element to reveal the projects slider */
   -webkit-transform: translateY(-90%);
@@ -134,8 +125,10 @@ Intro page
     top: 97.5%;
   }
   .cd-intro-block h1 {
-    font-size: 4.4rem;
-    font-weight: 300;
+    font-size: 97px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    color: white;
   }
   .cd-intro-block.projects-visible {
     -webkit-transform: translateY(-95%);
@@ -144,6 +137,10 @@ Intro page
     -o-transform: translateY(-95%);
     transform: translateY(-95%);
   }
+}
+
+.yellow-txt {
+  color: #fbd406;
 }
 
 /* -------------------------------- 
@@ -159,7 +156,7 @@ Projects Slider
   width: 100%;
   height: 100%;
   visibility: hidden;
-  background-color: #0f1926;
+  background-color: black;
   -webkit-transition: visibility 0s 0.5s;
   -moz-transition: visibility 0s 0.5s;
   transition: visibility 0s 0.5s;
@@ -169,6 +166,19 @@ Projects Slider
   content: 'mobile';
   display: none;
 }
+
+.portfolio-project-title {
+    font-size: 97px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.curiosity-img-portf {
+  width: 20%;
+}
+
 .cd-projects-wrapper.projects-visible {
   visibility: visible;
   -webkit-transition: visibility 0s 0s;
