@@ -1728,3 +1728,101 @@ input:-webkit-autofill:active {
 	font-size: 16px;
     font-family: "Lato", sans-serif;
 }
+
+
+/* Media queries */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  
+    #mainNav {
+      background: transparent;
+    }
+    
+    #mainNav .navbar-toggler{
+      margin-left: 280px;
+      color: white;
+      margin-top: -28px;
+      opacity: 0.7;
+    }
+    
+    .cd-headline {
+      font-size: 2.2rem;
+    }
+
+    header.masthead {
+      padding-top: 30px;
+    }
+
+    .iphone-mockup, .laptop-mockup {
+      width: 56%;
+      margin-left: -22px;
+    }
+      
+    #mainNav .navbar-nav>li>a, #mainNav .navbar-nav>li>a:focus {
+      color: white;
+      opacity: 0.7;
+    }
+
+    nav.navbar-shrink {
+      background: #000000db !important;
+    }
+
+    .main-btn {
+      padding: 8px 29px;
+      font-size: 9px;
+      margin-top: -40px;
+    }
+
+    #triangle-topright {
+      margin-top: 100px;
+      border-top: 66px solid #ffd300;
+      border-left: 655px solid transparent;
+    }
+      
+    .cd-headline.slide b.is-visible, 
+    .cd-headline.slide b.is-hidden {
+      font-size: 30px !important;
+      margin-left: -10px;
+    }
+
+    .cd-headline.slide b.is-visible.app-slide {
+      margin-left: -26px !important;
+    }
+
+    .idea-icon, 
+    .mobile-icon, 
+    .play-icon {
+      width: 60%;
+    }
+
+    .desktop-icon {
+      width: 72%;
+    }
+
+    section.about-us {
+      padding-top: 118px;
+    }
+		
+  	section.cta {
+  		background-image: url(../img/network.jpeg) !important;
+  	}
+
+    .curiosity-logo {
+      width: 41%;
+      margin-top: -17px;
+      margin-left: 0px;
+    }
+
+    .coders-link-logo {
+      margin-right: 0px;
+      width: 48%;
+      margin-top: 2px;
+    }
+
+    ul.navbar-nav {
+      background: #06060994;
+    }
+
+}
