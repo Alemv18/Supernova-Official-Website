@@ -1824,5 +1824,43 @@ input:-webkit-autofill:active {
     ul.navbar-nav {
       background: #06060994;
     }
+    
+    .cover-img-portfolio {
+      width: 96%;
+    }
 
+    .first-txt-portfolio, .second-txt-portfolio, .yellow-txt {
+      font-size: 27px;
+    }
+
+    .second-txt-portfolio {
+      margin-left: 0px;
+      font-size: 20px;
+    }
+
+    #services {
+      background: linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.13)), url(../img/services.jpeg) no-repeat scroll !important;
+      background-size: 980% !important;
+    }
+
+    .fil-cat {
+      font-size: 13px;
+      padding: 10px 20px;
+    }
+
+    body {
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+
+    #project-form {
+      margin: 0% 7%;
+      background: none;
+      margin-top: 0;
+      padding: 0;
+    }
+
+    .form-group input {
+      background: black;
+    }
 }
