@@ -735,6 +735,18 @@ section.features .section-heading p {
     top: 94%;
 }
 
+.first-post-name{
+    margin-left: 24%;
+}
+
+.second-post-name {
+    margin-left: 18%;
+}
+
+.third-post-name {
+    margin-left: 29%;
+}
+
 .namepost-last-news {
   margin-left: 15% !important;
 }
