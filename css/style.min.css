@@ -1431,9 +1431,6 @@ header.masthead .portfolio-cover {
     margin-bottom: 80px;
 }
 
-.portfolio-body {
-  width: 116%;
-}
 #services {
 	 background: -webkit-linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.13)), url(../img/services.jpeg) no-repeat bottom scroll !important;
 	 background: -o-linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.13)), url(../img/services.jpeg) no-repeat bottom scroll !important;
@@ -1459,6 +1456,10 @@ header.masthead .portfolio-cover {
     font-size: 17px;
     margin-top: 20px;
     color: white;
+}
+
+.services-box {
+  margin-bottom: 30px;
 }
 
 .circle {
@@ -1964,6 +1965,10 @@ input:-webkit-autofill:active {
     .blog-comment {
       margin-left: 20px;
       width: 370px;
+    }
+
+    .portfolio-body {
+      width: 116%;
     }
 }
 
