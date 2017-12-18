@@ -1424,13 +1424,16 @@ header.masthead .portfolio-cover {
 }
 
 .second-txt-portfolio {
-	margin-top: 10px;
+	  margin-top: 10px;
     margin-left: 240px;
     font-size: 40px;
     font-weight: 100;
     margin-bottom: 80px;
 }
 
+.portfolio-body {
+  width: 116%;
+}
 #services {
 	 background: -webkit-linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.13)), url(../img/services.jpeg) no-repeat bottom scroll !important;
 	 background: -o-linear-gradient(rgba(20, 20, 20, 0.55), rgba(20, 20, 20, 0.13)), url(../img/services.jpeg) no-repeat bottom scroll !important;
@@ -1805,8 +1808,8 @@ input:-webkit-autofill:active {
 
 /* Media queries */
 @media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
+  and (min-device-width: 360px) 
+  and (max-device-width: 991px)
   and (-webkit-min-device-pixel-ratio: 2) { 
   
     #mainNav {
@@ -1846,6 +1849,10 @@ input:-webkit-autofill:active {
       padding: 8px 29px;
       font-size: 9px;
       margin-top: -40px;
+    }
+
+    .features-txt-cont {
+      margin: 0 12px;
     }
 
     #triangle-topright {
@@ -1936,12 +1943,22 @@ input:-webkit-autofill:active {
     .form-group input {
       background: black;
     }
+
+    #exampleInputEmail1[type=email] {
+      color: white !important;
+      height: 40px;
+      margin-left: 0;
+      width: 347px !important;
+    }
     
+    #exampleInputEmail2[type=email] {
+      width: 373px;
+    }
+
     .form-control[type=email] {
       color: white !important;
       height: 40px;
       margin-left: 17px;
-      width: 377px;
     }
 
     .blog-comment {
@@ -1949,3 +1966,4 @@ input:-webkit-autofill:active {
       width: 370px;
     }
 }
+
