@@ -1563,7 +1563,7 @@ audio:not([controls]) {
     opacity: 0.8;
 }
 .our-team .title{
-    font-size: 24px;
+    font-size: 15px;
     font-weight: 700;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -1579,7 +1579,7 @@ audio:not([controls]) {
 }
 .our-team .post{
     display: block;
-    font-size: 17px;
+    font-size: 15px;
     margin-bottom: 15px;
     opacity: 0;
     transform: scale(1.2);
