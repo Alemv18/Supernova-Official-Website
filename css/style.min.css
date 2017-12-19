@@ -1143,9 +1143,12 @@ footer ul li {
 }
 
 .latest-posts {
-	  text-align: left;
-    margin-bottom: 30px;
-    margin-top: -50px;
+	  margin-top: 4%;
+    text-align: left;
+}
+
+.recent-post {
+    margin-left: -14%;
 }
 
 .blog-form{
@@ -1154,6 +1157,10 @@ footer ul li {
 
 .user-blog-box {
   margin-left: 50px;
+}
+
+.last-post {
+  padding-top: 0px;
 }
 
 /* 
