@@ -724,27 +724,16 @@ section.features .section-heading p {
 .namepost {
 	  background-color: #0d0e17;
     border: 0;
+    width: 64%;
+    height: 4rem;
     color: white;
     font-family: "Lato", sans-serif;
-    font-size: 11px;
-    padding: 11px 93px;
+    font-size: 13px;
     position: absolute;
     border-radius: .25em;
     box-shadow: 0 5px 17px rgba(0, 0, 0, 0.39);
-    margin-left: -25%;
+    margin-left: 32%;
     top: 94%;
-}
-
-.first-post-name{
-    margin-left: 24%;
-}
-
-.second-post-name {
-    margin-left: 18%;
-}
-
-.third-post-name {
-    margin-left: 29%;
 }
 
 .namepost-last-news {
@@ -1522,13 +1511,15 @@ audio:not([controls]) {
 
 /* Team members section */
 
-#team-members {
-	background-color: #000;
+.team-members-body{
+	background-image: url(../img/photo-cover-cosmo.jpeg) !important;
+  overflow-x: hidden;
+  overflow-y: scroll; 
 }
 
 .our-team{
     text-align: center;
-    border-radius: 50%;
+    border-radius: 50% !important;
     overflow: hidden;
     position: relative;
     width: 90%;
@@ -1546,6 +1537,7 @@ audio:not([controls]) {
 }
 .our-team:hover img{
     transform: scale(1.2);
+    border-radius: 50%;
 }
 .our-team .team-content{
     width: 100%;
@@ -1972,9 +1964,3 @@ input:-webkit-autofill:active {
       width: 116%;
     }
 }
-
-float: right;
-    width: 0;
-    height: 0;
-    border-top: 99px solid #ffd300;
-    border-left: 1870px solid transparent;
