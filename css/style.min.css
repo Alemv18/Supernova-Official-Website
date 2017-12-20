@@ -829,7 +829,6 @@ section.contact h2 i {
     padding:0px;
     margin:0px;
     position:fixed;
-    right:-130px;
     top:230px;
     width:210px;
     z-index: 1100;
@@ -868,6 +867,10 @@ section.contact h2 i {
 }
 .sticky li p a:hover{
     text-decoration:underline;
+}
+
+.social-media-links {
+	width: 20%;
 }
 
 /* Contact section*/

@@ -167,12 +167,11 @@ Projects Slider
   display: none;
 }
 
-.portfolio-project-title {
-    font-size: 97px;
-    font-weight: 600;
-    font-family: "Lato", sans-serif;
-    color: white;
-    margin-bottom: 40px;
+.portfolio-project-title, 
+.yellow-txt {
+    font-size: 15rem !important;
+    font-weight: 500 !important;
+    font-family: "Lato", sans-serif !important;
 }
 
 .curiosity-img-portf {
