@@ -1592,6 +1592,7 @@ audio:not([controls]) {
 
 .team-members-body{
 	background-image: url(../img/photo-cover-cosmo.jpeg) !important;
+  background-size: 150% !important;
   overflow-x: hidden;
   overflow-y: scroll; 
 }
@@ -2043,3 +2044,25 @@ input:-webkit-autofill:active {
       width: 116%;
     }
 }
+
+
+/* Portfolio list */
+
+.project-box {
+    border: 1px solid white;
+    height: 42rem;
+    width: 92%;
+    background: #000000bf;
+    margin-top: 11%;
+    position: relative;
+}
+
+
+.img-project-box {
+    position: absolute;
+}
+
+.list-projects-img {
+  width: 100%;
+  padding: 18px !important;
+}  
