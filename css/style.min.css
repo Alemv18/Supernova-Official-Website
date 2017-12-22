@@ -1809,6 +1809,11 @@ audio:not([controls]) {
     margin-top: 70px;
 }
 
+select option:hover {
+  color: white; 
+  box-shadow: inset 20px 20px black;
+}
+
 #project-submit {
 	background: none;
     color: white;
