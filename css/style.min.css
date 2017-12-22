@@ -2124,15 +2124,38 @@ input:-webkit-autofill:active {
 
 .project-main-box {
   font-family: "Lato", sans-serif;
+  color: white;
 }
 
 .project-main-label {
     margin-top: 30px;
     font-weight: bolder;
     font-size: 1.5em;
+    opacity: 0.8;
 }
 
 .project-main-content {
     text-align: justify;
+    opacity: 0.8;
 }
 
+.devicon {
+	font-size: 60px;
+    color: white;
+    opacity: 0.8;
+}
+
+.devicon:hover, 
+.devicon:focus, 
+.devicon:active {
+  color: #ffd400;
+}
+
+.img-placeholders {
+  width: 100%;
+}
+
+.first-main-img-row, 
+.second-main-img-row {
+  margin-bottom: 40px;
+}
