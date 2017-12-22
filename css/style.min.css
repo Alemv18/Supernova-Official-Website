@@ -2058,6 +2058,13 @@ input:-webkit-autofill:active {
 }
 
 
+.project-box:hover, 
+.project-box:active, 
+.project-box:focus {
+  background: #fbd406;
+  color: black;
+}
+
 .img-project-box {
     position: absolute;
 }
@@ -2065,4 +2072,35 @@ input:-webkit-autofill:active {
 .list-projects-img {
   width: 100%;
   padding: 18px !important;
+}
+
+.project-title-line {
+    text-transform: uppercase !important;
+    font-size: 21px;
+    font-weight: 700;
+    color: white;
+    margin-left: 180px;
 }  
+
+.project-title-box {
+  position: absolute;
+}
+
+.portf-list-logo-img {
+    width: 60%;
+    margin-top: 110%;
+    margin-left: 40px;
+    opacity: 0.6;
+}
+
+.project-content {
+	display: block;
+}
+
+.project-intro-txt {
+	margin-top: 40px;
+    text-align: center;
+    font-size: 17px;
+    font-family: "Lato", sans-serif;
+    padding: 0 40px;
+}
