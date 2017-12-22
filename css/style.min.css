@@ -2098,9 +2098,41 @@ input:-webkit-autofill:active {
 }
 
 .project-intro-txt {
-	margin-top: 40px;
+	  margin-top: 40px;
     text-align: center;
     font-size: 17px;
     font-family: "Lato", sans-serif;
     padding: 0 40px;
 }
+
+
+/* Individual project style */
+.project-main-title {
+   text-transform: uppercase;
+    font-weight: 600;
+    font-size: 3.2em;
+    font-family: "Lato", sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+.main-img-prj {
+	 width: 100%;
+  margin-top: 15px;
+}
+
+.project-main-box {
+  font-family: "Lato", sans-serif;
+}
+
+.project-main-label {
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.project-main-content {
+    text-align: justify;
+}
+

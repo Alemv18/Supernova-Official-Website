@@ -49,7 +49,10 @@
         $(this).val('');
     });
 
-
+  //Change color of label on portfolio project list 
+  $('.project-box').hover(
+      $(".project-title-line").css('color', 'black !important');
+    );
 
 })(jQuery); // End of use strict
 
